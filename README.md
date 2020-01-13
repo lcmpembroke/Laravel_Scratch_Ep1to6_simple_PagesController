@@ -18,10 +18,15 @@ This code follows episodes 1 to 6 of Laravel 5.7 from Scratch.
 * Developed on local machine. Server requirements found at https://laravel.com/docs/5.7/#server-requirements
 
 ## Setup
-Within project directory:  
-* run command $ php artisan serve
-* open http://localhost:8000/ in browser
+* git clone https://github.com/lcmpembroke/Laravel_Scratch_Ep1to6_simple_PagesController.git
+* cd Laravel_Scratch_Ep1to6_simple_PagesController
+* composer install
+* npm install
+* cp .env.example .env
+* php artisan key:generate
 
+Now open http://localhost:8000/ in browser,  
+No database needed for this project.
 
 ## Code Examples
 
